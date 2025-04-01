@@ -14,7 +14,13 @@ This is a desktop application that performs real-time OCR (Optical Character Rec
 - 🧹 Clear output
 
 ## 📂 Folder Structure
-ocr-project/ ├── runocr.py ├── tesseract/ │ ├── tesseract.exe │ └── tessdata/ │ ├── eng.traineddata │ ├── tha.traineddata │ └── jpn.traineddata ├── requirements.txt ├── README.md
+ocr-project/
+├── runocr.py
+├── tesseract/          <-- (รวมได้ถ้าไม่ใหญ่เกิน 100 MB)
+│   ├── tesseract.exe
+│   └── tessdata/
+├── README.md
+├── requirements.txt
 
 
 > ℹ️ **Tesseract OCR is bundled in the `tesseract/` folder for portability.**
@@ -59,3 +65,22 @@ Email: sittiphong@pnru.ac.th
 
 ### 📦 Packaging to .exe (Optional)
 pyinstaller --noconfirm --onefile --windowed --add-data "tesseract;tesseract" runocr.py
+
+### 🙏 Acknowledgements
+Special thanks to the following projects and contributors:
+
+Tesseract OCR – Open-source OCR engine developed by Google
+
+Google Translate (via googletrans) – For enabling automatic translation features
+
+OpenCV – For image processing support
+
+Pillow – For image handling in Python
+
+mss – For fast and cross-platform screen capturing
+
+PyAutoGUI – For screen and mouse interaction
+
+Tkinter – Standard Python GUI library used in this project
+
+And all open-source contributors whose work makes this project possible. 💙
