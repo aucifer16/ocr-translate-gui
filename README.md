@@ -16,7 +16,7 @@ This is a desktop application that performs real-time OCR (Optical Character Rec
 ## 📂 Folder Structure
 
 ```
-ocr-project/
+ocr-translate-gui/
 ├── runocr.py
 ├── tesseract/          <-- (bundled if under 100 MB)
 │   ├── tesseract.exe
