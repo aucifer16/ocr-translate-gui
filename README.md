@@ -1,7 +1,11 @@
 # OCR & Translate Overlay GUI
 
 This is a desktop application that performs real-time OCR (Optical Character Recognition) for **Thai**, **English**, and **Japanese** text. It translates the recognized text to Thai and displays the translated result as an overlay on the original screen location.
-
+###  Exe file
+You can download exe file at
+   ```bash
+https://drive.google.com/file/d/1Z4c0m8ozkJoljZOO_KW2lpmBFBdnQTFi/view?usp=sharing
+   ```
 ## 📌 Features
 
 - 🧠 OCR with support for `eng`, `tha`, `jpn` using Tesseract OCR
