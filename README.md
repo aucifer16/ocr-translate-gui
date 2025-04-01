@@ -14,13 +14,19 @@ This is a desktop application that performs real-time OCR (Optical Character Rec
 - 🧹 Clear output
 
 ## 📂 Folder Structure
+
+```
 ocr-project/
 ├── runocr.py
-├── tesseract/          <-- (รวมได้ถ้าไม่ใหญ่เกิน 100 MB)
+├── tesseract/          <-- (bundled if under 100 MB)
 │   ├── tesseract.exe
 │   └── tessdata/
+│       ├── eng.traineddata
+│       ├── tha.traineddata
+│       └── jpn.traineddata
 ├── README.md
 ├── requirements.txt
+```
 
 
 > ℹ️ **Tesseract OCR is bundled in the `tesseract/` folder for portability.**
