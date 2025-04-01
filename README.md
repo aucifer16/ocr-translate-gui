@@ -4,7 +4,7 @@ This is a desktop application that performs real-time OCR (Optical Character Rec
 ###  Exe file
 You can download exe file at
    ```bash
-https://drive.google.com/file/d/1Z4c0m8ozkJoljZOO_KW2lpmBFBdnQTFi/view?usp=sharing
+https://shorturl.at/wzRAR
    ```
 ## 📌 Features
 
