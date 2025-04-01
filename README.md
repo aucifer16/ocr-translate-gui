@@ -31,13 +31,17 @@ ocr-project/ ├── runocr.py ├── tesseract/ │ ├── tesseract.ex
    ```bash
    git clone https://github.com/your-username/ocr-translate-gui.git
    cd ocr-translate-gui
+   ```
 
-
+2. Install Pagkage 
+   ```bash
    pip install -r requirements.txt
+   ```
 
-
+3. Run 
+   ```bash
    python runocr.py
-
+   ```
 
 ### 🧠 How it Works
 Select a screen zone using mouse
